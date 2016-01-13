@@ -16,13 +16,14 @@ open Microsoft.FSharp.Data.TypeProviders
 open System.IO
 open FSharp.Data
 open System.Text.RegularExpressions
-open System.Text
+open System.Text 
 
 type Race = 
     { RaceName : string
       RaceDate : DateTime
       RaceDistance : string
       RaceParam : string }
+
 
 type Gender = | Male | Female
 
