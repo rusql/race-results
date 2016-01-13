@@ -1,0 +1,234 @@
+﻿
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+    <script type='text/javascript' src='http://d1.openx.org/spcjs.php?id=42833'></script>
+
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-19418085-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    function recordOutboundLink(link, category, action) {  
+        try {    
+            //alert('001');
+            var pageTracker=_gaq._getTracker("UA-19418085-1");    
+            //alert('category: ' + category); 
+            //alert('action: ' + action);
+            //alert('link.href: ' + link.href);
+            pageTracker._trackEvent(category, action);    
+            setTimeout('document.location = "' + link.href + '"', 100)
+            pause(1000);
+        }catch(err){
+            //alert('err: ' + err.toString());
+        }
+    }
+
+    </script>
+        
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/default.css">
+    <title>Club results output</title>
+</head>
+
+<body bgcolor="#808000" leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" marginwidth="0">
+
+<table width="1008" height="100%" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+<tr>
+	<td colspan="5" height ="211">
+		<table width="1008" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td><a href="index.php" target="_self"><img src="images/logo01.gif" alt="" width="255" height="81" border="0"></a></td>
+				<td colspan="14"><img src="images/mastimage01.jpg" alt="" width="753" height="81" border="0"></td>
+			</tr>
+			<tr>
+				<td><a href="index.php" target="_self"><img src="images/logo02.gif" alt="" width="255" height="39" border="0"></a></td>
+				<td valign="top" bgcolor="#0A4D85">
+				<table border="0" cellspacing="0" cellpadding="0" bgcolor="#0A4D85">
+					<td><img src="images/firstbuttonspacer.gif" alt="" width="16" height="39" border="0"></td>
+					<td><a href="results.php" target="_self" class="nav">Road Running</a></td>
+					<td><img src="images/buttonspacer.gif" alt="" width="30" height="39" border="0"></td>
+					<td><a href="flyers.php" target="_self" class="nav">Flyers for Upcoming Events</a></td>
+					<td><img src="images/buttonspacer.gif" alt="" width="30" height="39" border="0"></td>
+					<td><a href="mailto:margaret@raceresults.co.za" class="nav">Advertising</a></td>
+					<td><img src="images/buttonspacer.gif" alt="" width="30" height="39" border="0"></td>
+<!--					<td><a href="mailto:margaret@raceresults.co.za" target="_self" class="nav">Contact Us</a></td>-->
+					<td><a href="contact.php" target="_self" class="nav">Contact Us</a></td>
+					<td><img src="images/buttonspacer.gif" alt="" width="30" height="39" border="0"></td>
+					<td><a href="http://www.runnersguide.co.za/Calendar/full%20fixtures/FixMenu.aspx" target="_blank" class="nav">Race Calendar</a></td>
+					<td><img src="images/buttonspacer.gif" alt="" width="30" height="39" border="0"></td>
+					<td><a href="index.php" target="_self" class="nav">Home</a></td>
+					<td><img src="images/buttonspacer.gif" alt="" width="30" height="39" border="0"></td>
+					<td></td>
+				</table>
+				</td>
+			</tr>
+			<tr>
+				<td><a href="index.php" target="_self"><img src="images/logo03.gif" alt="" width="255" height="91" border="0"></a></td>
+				<td colspan="14"><img src="images/mastimage02.jpg" alt="" width="753" height="91" border="0"></td>
+			</tr>
+			</table>
+	</td>
+</tr>
+<tr>
+	<td><img src="images/blank.gif" alt="" width="10" height="10" border="0"></td>
+	<td valign="top">
+		<table width="728" height="100%" border="0" cellspacing="0" cellpadding="0">
+                    <!-- Kromberg 2014 
+                    <tr>
+                        <td><a href='http://www.roadrace.co.za' target='_blank' onClick="_gaq.push(['_trackEvent', 'Promotions', 'Kromberg 2014', 'clicked']);"><img border='0' alt='Kromberg 2014' src='ads/Kromberg/Kromberg2014.gif' width="728"></a></td>
+                    </tr>
+                     Kromberg 2014 -->
+                    <tr>
+			<td>
+                            <script type="text/javascript">
+                            google_ad_client = "ca-pub-5185760317584355";
+                            /* 728x90 Leaderboard */
+                            google_ad_slot = "1181436027";
+                            google_ad_width = 728;
+                            google_ad_height = 90;
+                            //
+                            </script>
+                            <script type="text/javascript"
+                            src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                            </script>
+                        </td>
+                    </tr>
+                    <tr>
+				<td height="10"><img src="images/blank.gif" alt="" width="10" height="10" border="0"></td>
+                    </tr>
+			<tr>
+				<td bgcolor="#E1EAF1" valign="top">
+			
+	<table border="0" cellspacing="0" cellpadding="0" align="center" id="body_contents" valign="top">
+		<tr>
+			<td align="center" valign="top">				
+			
+<br><p align="center" class="headings">Club Results</p> 
+                 
+                <p align='center' class='headings2'>Pirates results for the Kaapsehoop (MPU)  42km race - 2014-11-01</p><p align='center' class='headings2'>7 club finishers</p><table id='results_club' class='results'>
+   <tr>
+      <td align='center'><b>Position</b></td>
+      <td align='center'><b>Initials</b></td>
+      <td align='center'><b>Surname</b></td>
+      <td align='center'><b>Sex</b></td>
+      <td align='center'><b>Age</b></td>
+      <td align='center'><b>Club</b></td>
+      <td align='center'><b>Finish Time</b></td>
+      </tr><td align='center'>187</td><td align='center'>R</td><td align='center'>Smith</td><td align='center'>M</td><td align='center'>47</td><td align='center'>Pirates</td><td align='center'>03:27:31</td></tr><td align='center'bgcolor='#FFFFFF'>325</td><td align='center'bgcolor='#FFFFFF'>S</td><td align='center'bgcolor='#FFFFFF'>Cose</td><td align='center'bgcolor='#FFFFFF'>F</td><td align='center'bgcolor='#FFFFFF'>32</td><td align='center'bgcolor='#FFFFFF'>Pirates</td><td align='center'bgcolor='#FFFFFF'>03:43:49</td></tr><td align='center'>429</td><td align='center'>C</td><td align='center'>Preston</td><td align='center'>F</td><td align='center'>28</td><td align='center'>Pirates</td><td align='center'>03:51:26</td></tr><td align='center'bgcolor='#FFFFFF'>452</td><td align='center'bgcolor='#FFFFFF'>W</td><td align='center'bgcolor='#FFFFFF'>Bewsher</td><td align='center'bgcolor='#FFFFFF'>M</td><td align='center'bgcolor='#FFFFFF'>41</td><td align='center'bgcolor='#FFFFFF'>Pirates</td><td align='center'bgcolor='#FFFFFF'>03:52:33</td></tr><td align='center'>475</td><td align='center'>T</td><td align='center'>Duffin</td><td align='center'>M</td><td align='center'>41</td><td align='center'>Pirates</td><td align='center'>03:53:45</td></tr><td align='center'bgcolor='#FFFFFF'>942</td><td align='center'bgcolor='#FFFFFF'>H</td><td align='center'bgcolor='#FFFFFF'>Booysen</td><td align='center'bgcolor='#FFFFFF'></td><td align='center'bgcolor='#FFFFFF'>50</td><td align='center'bgcolor='#FFFFFF'>Pirates</td><td align='center'bgcolor='#FFFFFF'>04:23:58</td></tr><td align='center'>943</td><td align='center'>D</td><td align='center'>Case</td><td align='center'>M</td><td align='center'>34</td><td align='center'>Pirates</td><td align='center'>04:23:59</td></tr><td align='center'bgcolor='#FFFFFF'></td><td align='center'bgcolor='#FFFFFF'></td><td align='center'bgcolor='#FFFFFF'></td><td align='center'bgcolor='#FFFFFF'></td><td align='center'bgcolor='#FFFFFF'></td><td align='center'bgcolor='#FFFFFF'></td><td align='center'bgcolor='#FFFFFF'></td></tr></table><hr width='600' size='2' color='#0A4D85'><center><a href='results.php'class='resultLink'>Back</a></center><br><br>
+
+
+  </td>
+	</tr>
+</table>
+
+				</td>
+			</tr>
+			<tr>
+				<td height="10" valign="bottom"></td>
+			</tr>
+		</table>
+	</td>
+	<td width="10"><img src="images/blank.gif" alt="" width="10" height="10" border="0"></td>
+	<td valign="top">
+	<table width="250" border="0" cellspacing="0" cellpadding="0">
+<!--		<tr>
+                    <td>
+                        <a href='http://www.sportsvendo.co.za/results.php' target='_blank' onClick="_gaq.push(['_trackEvent', 'Promotions', 'SportsVendo.co.za', 'clicked']);"><img border='0' width='250' alt='sportsvendo.co.za' src='ads/JAC2013/JAC2013.jpg'></a>  
+                    </td>
+		</tr>-->
+<!--            
+                <tr>
+			<td><img src="images/blank.gif" alt="" width="10" height="10" border="0"></td>
+		</tr>
+                <tr>
+			<td><a href='ads/RacePhoto/BronkiesCancelled.jpg' target='_blank'><img src="ads/RacePhoto/BronkiesCancelled.jpg" alt="" width="280" border="0"></a></td>
+		</tr> -->
+		<tr>
+			<td><img src="images/blank.gif" alt="" width="10" height="10" border="0"></td>
+		</tr>
+		<tr>
+			<td>
+                            <script type='text/javascript'>
+                                <!-- // <![CDATA[/* [id179695] www.raceresults.co.za - island */ OA_show(179695); // ]]> -->
+                            </script>
+                            <noscript>
+                                <a target='_blank' href='http://d1.openx.org/ck.php?n=b847cf9'>
+                                    <img border='0' alt='' src='http://d1.openx.org/avw.php?zoneid=179695&amp;n=b847cf9' /></a>
+                            </noscript>
+                            
+                            <!-- RacePhoto --
+                            <a href='https://www.facebook.com/racephoto.sa' target='_blank' onClick="_gaq.push(['_trackEvent', 'Promotions', 'RacePhoto.co.za', 'clicked']);"><img border='0' alt='https://www.facebook.com/racephoto.sa' src='ads/RacePhoto/2014-02 - RacePhoto.png'></a>   
+                            -- RacePhoto -->
+                        </td>
+		</tr>
+		<tr>
+			<td>
+                            <script type="text/javascript">
+                                
+                                google_ad_client = "ca-pub-5185760317584355";
+                                /* 250x250 island */
+                                google_ad_slot = "6786993927";
+                                google_ad_width = 250;
+                                google_ad_height = 250;
+                                
+                            </script>
+                            <script type="text/javascript"
+                                src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                            </script>
+                        </td>
+		</tr>
+                <tr>
+			<td><img src="images/blank.gif" alt="" width="10" height="10" border="0"></td>
+		</tr>
+                <tr>
+			<td>
+                            <!-- alt race tips -->
+                            <a href='https://www.facebook.com/media/set/?set=a.483992768360030.1073741826.172129236213053&type=1' target='_blank' onClick="_gaq.push(['_trackEvent', 'Running Tips', 'Tip', 'clicked']);"><img border='0' width='280' alt='Tips' src='ads/Tips/Tip06.jpg'></a>                            <!-- alt race tips -->
+                        </td>   
+		</tr>		
+                <tr>
+			<td><img src="images/blank.gif" alt="" width="10" height="10" border="0"></td>
+		</tr>
+                <tr>
+                        <td>
+                            <!-- RacePhoto -->                            
+                            <!--<a href='http://www.raceguide.co.za' target='_blank' onClick="_gaq.push(['_trackEvent', 'Promotions', 'RaceGuide.co.za', 'clicked']);"><img border='0' alt='RaceGuide.co.za' src='ads/RacePhoto/RaceGuide.jpg'></a>-->     
+                            <!-- RacePhoto -->
+                        </td>
+		</tr>
+                <tr>
+			<td><img src="images/blank.gif" alt="" width="10" height="10" border="0"></td>
+		</tr>
+                <tr>
+                    <td align='center'>
+                        <!-- alt ads -->
+                        <a href='http://www.twooceansmarathon.org.za' target='_blank' onClick="_gaq.push(['_trackEvent', 'Promotions', 'TwoOceansMarathon.org.za', 'clicked']);"><img border='0' width='250' alt='The World\'s Most Beautiful Marathon src='ads/TwoOceans2013.jpg'></a>                        <!-- alt ads -->
+                   </td>
+		</tr>
+		<tr>
+			<td><img src="images/blank.gif" alt="" width="10" height="10" border="0"></td>
+		</tr>
+	</table>
+	</td>
+	<td width="10"><img src="images/blank.gif" alt="" width="10" height="10" border="0"></td>
+</tr>
+<tr>
+	<td height="30" colspan="5" align="center" valign="bottom" bgcolor="#0A4D85" class="copyright">Copyright &copy; 2014 Chamberlain's Timekeeping<br><br></td>
+</tr>
+</table>
+
+</body>
+
+
+
+</html>
